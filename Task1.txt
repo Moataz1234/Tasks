@@ -1,0 +1,18 @@
+import 'dart:io';
+void main() {
+  List <int> arr=[];
+  int sum=0;
+  String? s=stdin.readLineSync();
+  if(s!=null){
+    int size=int.parse(s);
+    for (int x=1 ; x<=size; x++) {
+      String? s2=stdin.readLineSync();
+      if(s2!=null) {
+        int N = int.parse(s2);
+        arr.add(N);
+        sum += N;
+      } //A =List.parse(stdin.readLineSync());
+      }
+      print(sum.abs());
+    }
+  }
