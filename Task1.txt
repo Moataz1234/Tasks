@@ -11,8 +11,7 @@ void main() {
         int N = int.parse(s2);
         arr.add(N);
         sum += N;
-      } //A =List.parse(stdin.readLineSync());
-      }
+      }      }
       print(sum.abs());
     }
   }
